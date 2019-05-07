@@ -1,0 +1,3 @@
+> Store JSON arrays in sql as followers
+> Index the uname field for faster retrieves
+> Dots have to store the user names for follows.

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Client - Dedot</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style="text-align:center">DeDot Demo</h1>
+        <h3 style="text-align:center" id="user">Welcome, </h3>
+        <div class="container">
+            <div class="row">
+                <div class="seven columns"> </div>
+                <input class="three columns" type="text" id="search" name="search" placeholder="Search a user..">
+                <input class="button button-primary one column" type="button" value="Go" id="searchButton" name="searchButton">
+            </div>
+            
+            <form class="form">
+                <label for="input">Your Dot</label>
+                <textarea class="u-full-width" type="text" id="input" name="input" placeholder="Your thoughts right now..."></textarea>
+
+                <button class="button-primary">Post Dot</button>
+            </form>
+
+            <div class="allDots"></div>
+        </div>
+        <script src="client.js"></script>
+    </body>
+</html>
